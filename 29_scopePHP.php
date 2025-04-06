@@ -15,7 +15,7 @@ mostrarNumero($numero);
 
 function mostrarNumero1(){
     $numero1 = 13; // LOCAL no se puede acceder a ella 
-    return $numero1
+    return $numero1;
 }
 
 echo mostrarNumero1();
