@@ -1,6 +1,6 @@
 <?php
 
-// switch
+// switch -> validacion hasta que se cumpla una condicion
 
 $mes = 'Febrero';
 
@@ -21,7 +21,5 @@ switch($mes){
         echo 'Respuesta invalida';
         break;
 }
-
-
 
 ?>
