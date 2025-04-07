@@ -12,16 +12,14 @@ name -> conexion a php
 action -> a donde se van a ir los datos
 method -> metodo de envio por url
 -->
-    <form action="recibe.php" method="post">
-        <input type="text" placeholder="Nombre:" name="nombre">
+    <form action="recibe_get.php" method="get">
+        <input type="text" placeholder="Nombre:" name="nombre" >
         <br>
 
         <label for="hombre">Hombre</label>
-        <input type="radio" name="sexo" value='hombre' id='hombre'>
-        <br>
-
+        <input type="radio" name="sex" value='hombre' id='hombre'>
         <label for="mujer">Mujer</label>
-        <input type="radio" name="sexo" value='mujer' id='mujer'>
+        <input type="radio" name="sex" value='mujer' id='mujer'>
         <br>
 
         <select name="anio">
@@ -38,6 +36,7 @@ method -> metodo de envio por url
 
         <br>
         <input type="submit" value="Enviar">
+
     </form>
 
 </body>
