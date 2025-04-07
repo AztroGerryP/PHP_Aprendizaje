@@ -12,7 +12,7 @@ name -> conexion a php
 action -> a donde se van a ir los datos
 method -> metodo de envio por url
 -->
-    <form action="./recipe.php" method="">
+    <form action="recibe.php" method="post">
         <input type="text" placeholder="Nombre:" name="nombre">
         <br>
 
@@ -20,7 +20,7 @@ method -> metodo de envio por url
         <input type="radio" name="sexo" value='hombre' id='hombre'>
         <br>
 
-        <label for="mujer">Hombre</label>
+        <label for="mujer">Mujer</label>
         <input type="radio" name="sexo" value='mujer' id='mujer'>
         <br>
 
